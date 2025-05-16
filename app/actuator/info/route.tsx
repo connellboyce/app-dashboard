@@ -1,7 +1,7 @@
 import { name, version, description } from '../../../package.json';
 
 export async function GET() {
-    let data = {
+    const data = {
         app: {
             name: name,
             version: version,
